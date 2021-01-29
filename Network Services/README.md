@@ -21,6 +21,6 @@ Questions
  Enumerating SMB
  Questions
  1.  Conduct an nmap scan of your choosing, How many ports are open?
- After running nmap I found 3 ports opened
+ - After running nmap I found 3 ports opened
  
  ![Screen Shot 2021-01-28 at 2 29 57 PM](https://user-images.githubusercontent.com/55337670/106215794-d22a7d80-6175-11eb-8d12-12f7026215b7.png)

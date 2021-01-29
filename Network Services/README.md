@@ -19,4 +19,8 @@ Questions
  - "Samba, an open source server that supports the SMB protocol, was released for Unix systems."
  
  Enumerating SMB
+ Questions
+ 1.  Conduct an nmap scan of your choosing, How many ports are open?
+ After running nmap I found 3 ports opened
+ 
  

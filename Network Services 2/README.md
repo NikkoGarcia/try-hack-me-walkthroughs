@@ -30,4 +30,4 @@ Questions
 5.Have a look inside this directory, look at the files. Looks like  we're inside a user's home directory...
 6. Interesting! Let's do a bit of research now, have a look through the folders. Which of these folders could contain keys that would give us remote access to the server?
 7. Which of these keys is most useful to us?
-8. Can we log into the machine using ssh -i <key-file> <username>@<ip> ? (Y/N)
+8. Can we log into the machine using ssh -i key-file username@ip ? (Y/N)

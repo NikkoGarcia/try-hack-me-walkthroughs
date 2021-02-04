@@ -21,6 +21,11 @@ Questions
 Task 3 - Enumerating NFS
 Questions
 1. Conduct a thorough port scan scan of your choosing, how many ports are open?
+- 7
+
+![Screen Shot 2021-02-04 at 6 56 33 AM](https://user-images.githubusercontent.com/55337670/106927326-22de3100-66b6-11eb-9632-21ade8dfce8e.png)
+![Screen Shot 2021-02-04 at 6 57 31 AM](https://user-images.githubusercontent.com/55337670/106927459-44d7b380-66b6-11eb-8cfb-49836eb95f66.png)
+
 2. Which port contains the service we're looking to enumerate?
 3. Now, use /usr/sbin/showmount -e [IP] to list the NFS shares, what is the name of the visible share?
 

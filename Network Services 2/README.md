@@ -27,12 +27,15 @@ Questions
 ![Screen Shot 2021-02-04 at 6 57 31 AM](https://user-images.githubusercontent.com/55337670/106927459-44d7b380-66b6-11eb-8cfb-49836eb95f66.png)
 
 2. Which port contains the service we're looking to enumerate?
+- 2049
+
 3. Now, use /usr/sbin/showmount -e [IP] to list the NFS shares, what is the name of the visible share?
 
 ![Screen Shot 2021-02-02 at 1 42 30 PM](https://user-images.githubusercontent.com/55337670/106677243-82282e00-655c-11eb-8489-8671654afffc.png)
+- /home
 
 4.  Change directory to where you mounted the share- what is the name of the folder inside?
-- /home
+
 
 5.Then, use the mount command we broke down earlier to mount the NFS share to your local machine. Change directory to where you mounted the share- what is the name of the folder inside?
 - cappucino

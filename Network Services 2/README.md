@@ -28,6 +28,7 @@ Questions
 
 4.  Change directory to where you mounted the share- what is the name of the folder inside?
 - /home
+
 5.Then, use the mount command we broke down earlier to mount the NFS share to your local machine. Change directory to where you mounted the share- what is the name of the folder inside?
 - cappucino
 6. Interesting! Let's do a bit of research now, have a look through the folders. Which of these folders could contain keys that would give us remote access to the server?

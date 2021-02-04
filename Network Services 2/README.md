@@ -27,7 +27,12 @@ Questions
 ![Screen Shot 2021-02-02 at 1 42 30 PM](https://user-images.githubusercontent.com/55337670/106677243-82282e00-655c-11eb-8489-8671654afffc.png)
 
 4.  Change directory to where you mounted the share- what is the name of the folder inside?
-5.Have a look inside this directory, look at the files. Looks like  we're inside a user's home directory...
+- /home
+5.Then, use the mount command we broke down earlier to mount the NFS share to your local machine. Change directory to where you mounted the share- what is the name of the folder inside?
+- cappucino
 6. Interesting! Let's do a bit of research now, have a look through the folders. Which of these folders could contain keys that would give us remote access to the server?
+- .ssh
 7. Which of these keys is most useful to us?
+- id_rsa
 8. Can we log into the machine using ssh -i key-file username@ip ? (Y/N)
+- Y

@@ -61,6 +61,7 @@ Task 4 Exploiting NFS
 2. Let's do a sanity check, let's check the permissions of the "bash" executable using "ls -la bash". What does the permission set look like? Make sure that it ends with -sr-x.
 - -rwsr-sr-x
 
-3. Find the root flag (Find on your own)
+3. Find the root flag
+
 ![Screen Shot 2021-02-04 at 5 20 43 PM](https://user-images.githubusercontent.com/55337670/106985325-5304ee80-670d-11eb-94e3-89acaef950ee.png)
 

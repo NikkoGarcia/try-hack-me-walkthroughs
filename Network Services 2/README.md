@@ -51,3 +51,16 @@ Questions
 8. Can we log into the machine using ssh -i key-file username@ip ? (Y/N)
 ![Screen Shot 2021-02-04 at 7 24 29 AM](https://user-images.githubusercontent.com/55337670/106930798-080dbb80-66ba-11eb-84b5-9208eb5809c9.png)
 - Y
+
+Task 4 Exploiting NFS
+1. Now, we're going to add the SUID bit permission to the bash executable we just copied to the share using "sudo chmod +[permission] bash". What letter do we use to set the SUID bit set using chmod?
+
+![Screen Shot 2021-02-04 at 5 18 27 PM](https://user-images.githubusercontent.com/55337670/106985158-015c6400-670d-11eb-81a3-96108419bf78.png)
+- sudo chmod +S bash
+
+2. Let's do a sanity check, let's check the permissions of the "bash" executable using "ls -la bash". What does the permission set look like? Make sure that it ends with -sr-x.
+- -rwsr-sr-x
+
+3. Find the root flag (Find on your own)
+![Screen Shot 2021-02-04 at 5 20 43 PM](https://user-images.githubusercontent.com/55337670/106985325-5304ee80-670d-11eb-94e3-89acaef950ee.png)
+

@@ -65,3 +65,37 @@ Task 4 Exploiting NFS
 
 ![Screen Shot 2021-02-04 at 5 20 43 PM](https://user-images.githubusercontent.com/55337670/106985325-5304ee80-670d-11eb-94e3-89acaef950ee.png)
 
+Task 5 Understanding SMTP
+Questions
+1. What does SMTP stand for?
+- Simple Mail Transer Protocol
+
+2. What does SMTP handle the sending of?
+- emails
+
+3. What is the first step in the SMTP process?
+- SMTP Handshake
+
+4.  What is the default SMTP port?
+- 25
+
+5. Where does the SMTP server send the email if the recipient's server is not available?
+- smtp queue
+
+6.  On what server does the Email ultimately end up on?
+- POP/IMAP
+
+7. Can a Linux machine run an SMTP server? (Y/N)
+- Y
+
+8. Can a Windows machine run an SMTP server? (Y/N)
+- Y
+
+Task 6 Enumerating SMTP
+Questions 
+1. First, lets run a port scan against the target machine, same as last time. What port is SMTP running on?
+
+![Screen Shot 2021-02-08 at 9 28 13 AM](https://user-images.githubusercontent.com/55337670/107271197-f9900e80-69ef-11eb-9f85-f5ae713e4270.png)
+- 2
+
+

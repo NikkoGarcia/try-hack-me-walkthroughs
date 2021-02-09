@@ -107,3 +107,47 @@ Questions
 
 - auxiliary/scanner/smtp/smtp_version
 
+4. Great, now- select the module and list the options. How do we do this?
+
+![Screen Shot 2021-02-05 at 5 33 04 PM](https://user-images.githubusercontent.com/55337670/107401503-09b6f500-6aa7-11eb-9f5c-259a26b4649d.png)
+
+- options
+
+5. Have a look through the options, does everything seem correct? What is the option we need to set?
+
+![Screen Shot 2021-02-05 at 5 36 25 PM](https://user-images.githubusercontent.com/55337670/107401605-23f0d300-6aa7-11eb-9381-2b73770a6a52.png)
+
+- rhost
+
+6. Set that to the correct value for your target machine. Then run the exploit. What's the system mail name?
+
+![Screen Shot 2021-02-05 at 5 38 32 PM](https://user-images.githubusercontent.com/55337670/107401863-61edf700-6aa7-11eb-8505-0fe579322716.png)
+
+- polosmtp.home
+
+7. What Mail Transfer Agent (MTA) is running the SMTP server? This will require some external research.
+- Postfix
+
+8.  Good! We've now got a good amount of information on the target system to move onto the next stage. Let's search for the module "smtp_enum", what's it's full module name? 
+
+![Screen Shot 2021-02-05 at 5 39 19 PM](https://user-images.githubusercontent.com/55337670/107402358-f22c3c00-6aa7-11eb-9914-f818c2f048a6.png)
+
+- auxiliary/scanner/smtp/smtp_enum
+
+9. What option do we need to set to the wordlist's path?
+
+![Screen Shot 2021-02-05 at 5 42 02 PM](https://user-images.githubusercontent.com/55337670/107402635-49321100-6aa8-11eb-9ed9-38c2d7127bc3.png)
+
+-USER_FILE
+
+10. Once we've set this option, what is the other essential paramater we need to set?
+
+![Screen Shot 2021-02-05 at 5 46 32 PM](https://user-images.githubusercontent.com/55337670/107402805-7b437300-6aa8-11eb-9ed8-451295b9d2ad.png)
+
+- RHOSTs
+
+11. Okay! Now that's finished, what username is returned?
+
+![Screen Shot 2021-02-05 at 5 59 28 PM](https://user-images.githubusercontent.com/55337670/107402903-944c2400-6aa8-11eb-9bf4-b9fe9dda1d70.png)
+
+- administrator

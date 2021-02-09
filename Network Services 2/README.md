@@ -96,6 +96,14 @@ Questions
 1. First, lets run a port scan against the target machine, same as last time. What port is SMTP running on?
 
 ![Screen Shot 2021-02-08 at 9 28 13 AM](https://user-images.githubusercontent.com/55337670/107271197-f9900e80-69ef-11eb-9f85-f5ae713e4270.png)
-- 2
+- 25
 
+2. Okay, now we know what port we should be targeting, let's start up Metasploit. What command do we use to do this? 
+- msfconsole
+
+3.  Let's search for the module "smtp_version", what's it's full module name? 
+
+![Screen Shot 2021-02-05 at 5 32 06 PM](https://user-images.githubusercontent.com/55337670/107400999-83021800-6aa6-11eb-853c-63f9eb3c35fa.png)
+
+- auxiliary/scanner/smtp/smtp_version
 

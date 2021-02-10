@@ -211,6 +211,58 @@ Questions
 - 4 
 
 Task 10 Exploiting MySQL
+Questions
+
+1. First, let's search for and select the "mysql_schemadump" module. What's the module's full name?
+
+![Screen Shot 2021-02-10 at 12 10 10 PM](https://user-images.githubusercontent.com/55337670/107587898-b75cfd80-6ba6-11eb-8f3c-2715e7b64f63.png)
+
+- auxiliary/scanner/mysql/mysql_schemadump
+
+2.  Great! Now, you've done this a few times by now so I'll let you take it from here. Set the relevant options, run the exploit. What's the name of the last table that gets dumped?
+
+![Screen Shot 2021-02-10 at 12 11 23 PM](https://user-images.githubusercontent.com/55337670/107587973-e1aebb00-6ba6-11eb-80ae-758cd47b39b1.png)
+
+- x$waits_global_by_latency
+
+3.  Awesome, you have now dumped the tables, and column names of the whole database. But we can do one better... search for and select the "mysql_hashdump" module. What's the module's full name? 
+
+![Screen Shot 2021-02-10 at 12 10 10 PM](https://user-images.githubusercontent.com/55337670/107588058-0a36b500-6ba7-11eb-8caf-1c6011f44239.png)
+
+- auxiliary/scanner/mysql/mysql_hashdump
+
+4. Again, I'll let you take it from here. Set the relevant options, run the exploit. What non-default user stands out to you?
+
+![Screen Shot 2021-02-10 at 12 10 42 PM](https://user-images.githubusercontent.com/55337670/107588229-5e419980-6ba7-11eb-993a-ed144c05ac82.png)
+
+- carl
+
+5. What is the user/hash combination string?
+
+![Screen Shot 2021-02-10 at 12 10 42 PM](https://user-images.githubusercontent.com/55337670/107588291-7ca79500-6ba7-11eb-811a-dcffeaa48de1.png)
+
+- carl:*EA031893AA21444B170FC2162A56978B8CEECE18
+
+6. Now, we need to crack the password! Let's try John the Ripper against it using: "john hash.txt" what is the password of the user we found?  (Used Crackstation)
+
+![Screen Shot 2021-02-10 at 12 05 59 PM](https://user-images.githubusercontent.com/55337670/107588366-9cd75400-6ba7-11eb-9435-19e90efb3412.png)
+
+- doggie
+
+7. What's the contents of MySQL.txt
+
+![Screen Shot 2021-02-10 at 12 11 06 PM](https://user-images.githubusercontent.com/55337670/107588419-bb3d4f80-6ba7-11eb-8f06-0c4f114c4b6c.png)
+
+- THM{congratulations_you_got_the_mySQL_flag}
+
+- THM{congratulations_you_got_the_mySQL_flag}
+
+
+
+
+
+
+
 
 
 

@@ -184,7 +184,33 @@ Questions
 5. What major social network uses MySQL as their back-end database? This will require further research.
 - Facebook
 
+ Task 9 Enumerating MySQL 
+ Questions
+ 
+ 1.  As always, let's start out with a port scan, so we know what port the service we're trying to attack is running on. What port is MySQL using?
+ - 3306
+ 
+ 2. We're going to be using the "mysql_sql" module.  Search for, select and list the options it needs. What three options do we need to set? (in descending order)
+ 
+ ![Screen Shot 2021-02-09 at 6 26 10 PM](https://user-images.githubusercontent.com/55337670/107575615-2d0b9e00-6b94-11eb-84fd-d921e8750453.png)
+ 
+ ![Screen Shot 2021-02-09 at 6 26 30 PM](https://user-images.githubusercontent.com/55337670/107575513-0d747580-6b94-11eb-8fad-28ae438725b1.png)
+ 
+- PASSWORD/RHOSTS/USERNAME
 
+ 3. Run the exploit. By default it will test with the "select module()" command, what result does this give you?
+
+![Screen Shot 2021-02-09 at 6 27 39 PM](https://user-images.githubusercontent.com/55337670/107575731-50cee400-6b94-11eb-9c3e-5322d1df9576.png)
+
+- 5.7.29-0ubuntu0.18.04.1
+
+4. Great! We know that our exploit is landing as planned. Let's try to gain some more ambitious information. Change the "sql" option to "show databases". how many databases are returned?
+
+![Screen Shot 2021-02-09 at 6 27 59 PM](https://user-images.githubusercontent.com/55337670/107575958-9b506080-6b94-11eb-982a-64aaeedd529f.png)
+
+- 4 
+
+Task 10 Exploiting MySQL
 
 
 

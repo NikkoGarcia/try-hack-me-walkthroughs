@@ -166,3 +166,25 @@ Questions
 2.Great! Now, let's SSH into the server as the user, what is contents of smtp.txt
 
 ![Screen Shot 2021-02-09 at 8 52 55 AM](https://user-images.githubusercontent.com/55337670/107460987-372e8d80-6afd-11eb-81e0-0d66c400acc6.png)
+
+Task 8 Understanding MySQL
+Questions
+1. What type of software is MySQL?
+- relational database management system
+
+2. What language is MySQL based on?
+- SQL
+
+3. What communication model does MySQL use?
+- client-server
+
+4. What is a common application of MySQL?
+- back end database
+
+5. What major social network uses MySQL as their back-end database? This will require further research.
+- Facebook
+
+
+
+
+

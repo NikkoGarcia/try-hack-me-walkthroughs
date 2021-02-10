@@ -151,3 +151,18 @@ Questions
 ![Screen Shot 2021-02-05 at 5 59 28 PM](https://user-images.githubusercontent.com/55337670/107402903-944c2400-6aa8-11eb-9bf4-b9fe9dda1d70.png)
 
 - administrator
+
+Task 7 Exploiting SMTP
+Questions
+
+1. What is the password of the user we found during our enumeration stage?
+
+![Screen Shot 2021-02-09 at 8 52 26 AM](https://user-images.githubusercontent.com/55337670/107460845-f6367900-6afc-11eb-871a-917b6d3f8b9c.png)
+
+![Screen Shot 2021-02-09 at 8 51 49 AM](https://user-images.githubusercontent.com/55337670/107460877-051d2b80-6afd-11eb-96fd-626a35c613a2.png)
+
+-alejandro
+
+2.Great! Now, let's SSH into the server as the user, what is contents of smtp.txt
+
+![Screen Shot 2021-02-09 at 8 52 55 AM](https://user-images.githubusercontent.com/55337670/107460987-372e8d80-6afd-11eb-81e0-0d66c400acc6.png)
